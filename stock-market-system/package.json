@@ -9,11 +9,14 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0"
   },
-  "scripts": {
-  "preinstall": "rm -rf node_modules package-lock.json",
-  "install": "npm install --legacy-peer-deps",
-  "build": "vercel build"
-},
+    "scripts": {
+    "preinstall": "rm -rf node_modules package-lock.json",
+    "install": "npm install --legacy-peer-deps",
+    "build": "vercel build"
+  },
+  "build": {
+    "timeout": 600
+  },
   "resolutions": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
