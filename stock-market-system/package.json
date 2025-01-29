@@ -17,6 +17,9 @@
   "build": {
     "timeout": 600
   },
+  "engines": {
+  "node": ">=14.0.0"
+  },
   "resolutions": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
