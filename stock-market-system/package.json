@@ -1,27 +1,26 @@
 {
+  "name": "stock-market-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@tremor/react": "^3.11.1",
-    "next": "14.0.4",
+    "@tremor/react": "^3.18.7",
+    "next": "13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.0.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
-  },
-    "scripts": {
-    "preinstall": "rm -rf node_modules package-lock.json",
-    "install": "npm install --legacy-peer-deps",
-    "build": "vercel build"
-  },
-  "build": {
-    "timeout": 600
-  },
-  "engines": {
-  "node": ">=14.0.0"
-  },
-  "resolutions": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.0.0"
   }
 }
